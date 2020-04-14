@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.1;net452</TargetFrameworks>
+    <TargetFrameworks>netstandard1.1;net452;netcoreapp3.1</TargetFrameworks>
     <AssemblyName>DotNetCSS</AssemblyName>
     <PackageId>DotNetCSS</PackageId>
     <Title>DotNetCSS .NET Stylesheet Parser</Title>

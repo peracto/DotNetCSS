@@ -95,6 +95,15 @@ namespace DotNetCSS
                 {Keywords.PaddingBox, BoxModel.PaddingBox},
                 {Keywords.ContentBox, BoxModel.ContentBox}
             };
+        
+        public static readonly Dictionary<string, FillRule> FillRules =
+            new Dictionary<string, FillRule>(StringComparer.OrdinalIgnoreCase)
+            {
+                {Keywords.EvenOdd, FillRule.EvenOdd},
+                {Keywords.NoneZero, FillRule.NoneZero}
+            };
+        
+        
         public static readonly Dictionary<string, ITimingFunction> TimingFunctions =
             new Dictionary<string, ITimingFunction>(StringComparer.OrdinalIgnoreCase)
             {

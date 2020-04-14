@@ -255,6 +255,11 @@ namespace DotNetCSS
             AddLonghand(PropertyNames.Position, () => new PositionProperty());
             AddLonghand(PropertyNames.Quotes, () => new QuotesProperty());
             AddLonghand(PropertyNames.Right, () => new RightProperty(), true);
+            
+            AddLonghand(PropertyNames.Fill, () => new FillProperty(), true);
+            AddLonghand(PropertyNames.FillOpacity, () => new FillOpacityProperty(), true);
+            AddLonghand(PropertyNames.FillRule, () => new FillRuleProperty(), true);
+            
             AddLonghand(PropertyNames.Stroke, () => new StrokeProperty(), true);
             AddLonghand(PropertyNames.StrokeDasharray, () => new StrokeDasharrayProperty(), true);
             AddLonghand(PropertyNames.StrokeDashoffset, () => new StrokeDashoffsetProperty(), true);
